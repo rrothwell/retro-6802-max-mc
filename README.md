@@ -61,7 +61,7 @@ This was remedied by tying pin 30 of the IC to ground. In effect half of the chi
 
 WinCUPL was installed at c:\Wincupl.
 
-The PLD file is downloaded from "Old Micros" and duplicated into folder c:\Wincupl\RR_sources
+The PLD file is downloaded from "Old Micros" and duplicated into folder c:\Wincupl\RR_sources.
 In File Explorer, View tab, make sure files extensions can be viewed in case Notepad is used to create the file with a .txt extension.
 
 ![TL866 II plus PLD programming](https://user-images.githubusercontent.com/1712402/196102502-8274a380-9ba8-4154-a849-7d3f1368a8ff.png)
