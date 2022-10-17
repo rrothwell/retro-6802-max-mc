@@ -85,7 +85,7 @@ The serial to USB dongle maps the connections as follows:
 | RTS    | CTS |
 | 0V     | Gnd |
 
-The dongle is attached to the board and to a Mac using a Min-USB to serial cable in this case.
+The dongle is attached to the board and to a Mac using a Mini-USB to serial cable in this case.
 
 In the MacOS terminal application issue the command to show the available USB serial devices.
 `
