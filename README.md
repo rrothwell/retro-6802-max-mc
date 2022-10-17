@@ -1,5 +1,5 @@
 # retro-6802-max-mc
-Construction notes for a minimalist MC6802-based SBC
+Construction notes for a minimalist MC6802-based SBC.
 
 ## Introduction
 
