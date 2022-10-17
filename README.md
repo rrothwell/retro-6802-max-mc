@@ -93,7 +93,7 @@ In the MacOS terminal application issue the command to show the available USB se
 ls -al /dev/tty*
 `
 
-shows an number of entries including /dev/tty.usbserial-A50285BI.
+This shows an number of entries including /dev/tty.usbserial-A50285BI.
 This will vary from machine to machine.
 The entry for usbserial will only appear when the dongle is attached to the Mac.
 If it does not, assume the dongle is based on an FTDI chip, like FT232RB, then install the FTDI VCP (virtual comm port) driver.
