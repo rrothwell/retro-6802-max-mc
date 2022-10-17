@@ -14,7 +14,7 @@ Notable aspects of this design include:
 1. MC6821 PIA parallel input/output IC with connections exposed on an edge connnector.
 1. MC6850 ACIA RS232 serial input/output porrt for communication with the microcomputer from a PC serial terminal.
 1. A battery-backed RAM module doing double duty as RAM and EPROM.
-1. Board address decode logic implmented in a GAL22V10 IC.
+1. Board address decode logic implemented in a GAL22V10 IC.
 1. The DS1245 battery-backed RAM module is divided into two and the half to be used is selected via a link that ties A16 high or low.
 
 ## Notes
