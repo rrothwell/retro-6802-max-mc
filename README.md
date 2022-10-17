@@ -68,7 +68,7 @@ In File Explorer, View tab, make sure file extensions can be viewed in case Note
 
 The GAL appears to be of Lattice manufacture and its supported by the TL866 II plus programmer.
 
-A device dependant compile produces a 6802.jed file in the same folder at c:\Wincupl\RR_sources\6802.jed
+A device dependant compile produces a 6802.jed file in the same folder at c:\Wincupl\RR_sources\6802.jed.
 
 ![WinCUPL PLD compilation](https://user-images.githubusercontent.com/1712402/196102914-8d7dd8b9-44ad-485d-b09b-6573d1068a86.png)
 
