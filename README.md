@@ -92,6 +92,7 @@ In the MacOS terminal application issue the command to show the available USB se
 `
 ls -al /dev/tty*
 `
+
 shows an number of entries including /dev/tty.usbserial-A50285BI.
 This will vary from machine to machine.
 The entry for usbserial will only appear when the dongle is attached to the Mac.
@@ -102,6 +103,7 @@ Then in the terminal issue the command
 `
 screen /dev/tty.usbserial-A50285BI 115200
 `
+
 This should produce a $ prompt. 
 Various SWTBUG monitor commands can then be exercised.
 
