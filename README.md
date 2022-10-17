@@ -88,18 +88,20 @@ The serial to USB dongle maps the connections as follows:
 The dongle is attached to the board and to a Mac using a Mini-USB to serial cable in this case.
 
 In the MacOS terminal application issue the command to show the available USB serial devices.
+
 `
 ls -al /dev/tty*
 `
-shows an number of entries including /dev/tty.usbserial-A50285BI
+shows an number of entries including /dev/tty.usbserial-A50285BI.
 This will vary from machine to machine.
 The entry for usbserial will only appear when the dongle is attached to the Mac.
-Is it does not, assuming the dongle is based on an FTDI chip, like FT232RB, then the FTDI VCP (virtual comm port)
-needs to be installed.
+If it does not, assume the dongle is based on an FTDI chip, like FT232RB, then install the FTDI VCP (virtual comm port) driver.
 
 Then in the terminal issue the command 
-screen /dev/tty.usbserial-A50285BI 115200
 
+`
+screen /dev/tty.usbserial-A50285BI 115200
+`
 This should produce a $ prompt. 
 Various SWTBUG monitor commands can then be exercised.
 
